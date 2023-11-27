@@ -1,13 +1,10 @@
 .services {
+	background: var(--accent-color);
 	padding-bottom: 6rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	&__headline {
-		&-upper {
-			color: var(--accent-color);
-		}
-
 		&-main {
 			color: var(--title-text-color);
 		}
@@ -27,7 +24,6 @@
 
 			&-desc {
 				color: var(--main-text-color);
-				margin-left: 0.5rem;
 			}
 
 			&-icon {
@@ -37,10 +33,7 @@
 
 			&-more {
 				display: flex;
-				margin-left: 0.5rem;
 				align-items: center;
-				gap: 0.25rem;
-				cursor: pointer;
 			}
 
 			&-arrow {
@@ -49,7 +42,10 @@
 			}
 
 			&-link {
-				color: var(--accent-color);
+				font-size: 0.875rem;
+				background-color: var(--button-color);
+				padding: 2px 4px;
+				border-radius: 5px;
 			}
 		}
 	}

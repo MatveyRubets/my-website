@@ -1,17 +1,7 @@
 .roadmap {
-	background: var(--accent-color);
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 6rem;
-	&__headline {
-		&-upper {
-			color: var(--secondary-text-color);
-		}
-
-		&-main {
-			color: #fff;
-		}
-	}
 
 	&__block {
 		display: flex;
@@ -32,29 +22,17 @@
 			justify-content: center;
 			width: 30%;
 			gap: 1rem;
+			padding: 0.875rem;
 
 			&-img {
 				width: 30px;
 				height: 30px;
 			}
-
-			&-heading {
-				color: #fff;
-			}
-
-			&-desc {
-				color: var(--secondary-text-color);
-			}
 		}
 
 		&-step {
-			display: flex;
-			align-items: center;
-			flex-direction: column;
-
 			&-desc {
 				font-size: 30px;
-				color: #fff;
 				padding: 1.5rem 2rem;
 				background: var(--button-color);
 				border-radius: 0.75rem;
@@ -83,9 +61,7 @@
 			&-step {
 				&-desc {
 					font-size: 25px;
-					color: #fff;
 					padding: 1rem 1.5rem;
-					background: var(--button-color);
 					border-radius: 0.75rem;
 				}
 			}
@@ -108,7 +84,6 @@
 				align-items: center;
 
 				&-desc {
-					color: var(--main-text-color);
 					text-align: center;
 				}
 			}
